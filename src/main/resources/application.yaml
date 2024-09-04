@@ -1,0 +1,15 @@
+server:
+  port: 8088
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: learning
+  datasource:
+    username: root
+    password:
+    url: jdbc:mysql://localhost:3306/learning_spring_boot
+
+variables:
+  var1: Test value 1
